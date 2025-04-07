@@ -1,0 +1,177 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	text-decoration:none;
+}
+#focus{
+	width:333px;
+	height:300px;
+	background-color:#f4f4f4;
+	border:1px solid #c5c5c5;
+}
+#focus .first-pic{
+	width:324px;
+	height:81px;
+	margin:auto;
+	padding:6px 0px 4px;
+	overflow:hidden;
+}
+#focus .foc-news{
+	width:324px;
+	height:auto;
+	margin:auto;
+}
+#focus .foc-news li{
+	height:40px;
+	background:url(../images/icon_blue.jpg) no-repeat left center;
+	border-bottom:1px solid #c5c5c5;
+	font-size: 16px;
+	color: #211f1f;
+    line-height: 40px; 
+	overflow:hidden;
+}
+#focus .foc-news li a{
+	width:305px;
+	height:40px;
+	display:block;
+	position:relative;
+	left:13px;
+	color: #211f1f;
+	overflow:hidden;
+}
+#focus .foc-news li a:hover{
+    color: #32b593;
+}
+#focus .foc-more{
+	float:right;
+	font-size:14px;
+	color:#30adaf;
+	line-height:43px;
+	position:relative;
+	right:12px;
+}
+#focus .foc-more a{
+	color:#30adaf;
+}
+#tab{
+	width:335px;
+	height:320px;
+	margin:0px 0px 0px;
+	overflow:hidden;
+}
+#tab .tab-hd{
+	overflow:hidden;
+	zoom:1;
+}
+#tab .tab-hd li{
+	width:163px;
+    height: 40px;
+	font-size: 21px;
+    font-weight: 300;
+	text-align:center;
+	color: #212121;
+	line-height:40px;
+	float:left;
+	cursor:pointer;
+	overflow: hidden;
+	border-bottom: 2px solid #fd7f00;
+}
+#tab .tab-hd li a,#tab .tab-hd li a:hover{
+	color: #212121;
+}
+#tab .tab-hd .tab-right{
+	float:right;
+}
+#tab .tab-hd li.active{
+	border-bottom: 2px solid #10a5c6;
+}
+#tab .tab-bd li{
+	padding-top:6px;
+	display:none;
+}
+#tab .tab-bd li.thisclass{
+	display:list-item;
+}
+#tab .news02 a{
+	width: 325px;
+    height: 46px;
+    padding: 9px 5px 9px 5px;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #cecece;
+}
+#tab .news02 a p{
+	width: 52px;
+    height: 42px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding-top: 4px;
+    color: #fff;
+    text-align: center;
+	background: #32b593;
+}
+#tab .news02 a p b{
+    font-size: 18px;
+    display: block;
+}
+#tab .news02 a p span{
+	font-size:12px;
+    line-height: 16px;
+    display: block;
+}
+#tab .news02 a em{
+    font-style: normal;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    color: #212020;
+    width: 260px;
+    float: right;
+    height: 60px;
+    line-height: 22px;
+    font-size: 16px;
+    overflow: hidden;
+}
+#tab .news02 a:hover em{
+    color: #32b593;
+}
+#tab .indexlink-box{
+	padding-top:5px;
+}
+#tab .indexpiclink {
+    width: 335px;
+}
+#tab .indexpiclink a {
+    display: block;
+    width: 335px;
+    position: relative;
+    height: 78px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#tab .indexpiclink a span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    line-height: 25px;
+    width: 244px;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    background: url(http://www2.sxu.edu.cn/images/banartitlebgindex.png);
+	overflow:hidden;
+}
+#tab .indexpiclink .mtgz {
+    background: url(../images/jj_02.jpg) left top no-repeat;
+}
+#tab .indexpiclink .bnsy {
+    background: url(../images/jj_03.jpg) left top no-repeat;
+}
+#tab .indexpiclink .jjxy {
+    background: url(../images/jj_04.jpg) left top no-repeat;
+}
